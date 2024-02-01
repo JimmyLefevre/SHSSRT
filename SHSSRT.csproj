@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="4.0">
+
+  <ItemGroup>
+    <Reference Include=".\bin\x64\Debug\net4.0\FNA.dll">
+      <HintPath>".\bin\x64\Debug\net4.0\FNA.dll"</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\FNA\FNA.NetFramework.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net4.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
