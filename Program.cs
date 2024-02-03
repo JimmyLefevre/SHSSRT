@@ -492,6 +492,14 @@ class HaiGame: Game {
     "You should read #rules-and-directory carefully...",
   };
 
+  static readonly string[] helpText_Moebius = {
+    "You ask Moebius for help.",
+    "(Moebius is typing...)",
+    "\"Dont trust Time's advice.\"",
+    "\"Only trust in number 4.\"",
+    "You want to revolt, but are not sure that is going to help.",
+  };
+
   const int HELP_TEXT_JESSE = 0;
   const int HELP_TEXT_TIME  = 1;
   const int HELP_TEXT_TRME  = 2;
@@ -505,10 +513,11 @@ class HaiGame: Game {
   const int HELP_TEXT_UNKL = 10;
   const int HELP_TEXT_NERF = 11;
   const int HELP_TEXT_ROAST = 12;
-  const int HELP_TEXT_COUNT = 13;
+  const int HELP_TEXT_MOEBIUS = 13;
+  const int HELP_TEXT_COUNT = 14;
 
   static readonly string[][] helpText = {
-    helpText_Jesse, helpText_time, helpText_trme, helpText_StoredJumps, helpText_Skip, helpText_DerHealsPiano, helpText_MTaur, helpText_Toby2, helpText_Four, helpText_Lampie, helpText_Unkl, helpText_Nerf, helpText_Roast,
+    helpText_Jesse, helpText_time, helpText_trme, helpText_StoredJumps, helpText_Skip, helpText_DerHealsPiano, helpText_MTaur, helpText_Toby2, helpText_Four, helpText_Lampie, helpText_Unkl, helpText_Nerf, helpText_Roast, helpText_Moebius
   };
 
   ulong helpTextRead = 0;
